@@ -3,7 +3,7 @@ body {
   background-color: lightblue;
 }
 
-.container {
+.grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 50px;
