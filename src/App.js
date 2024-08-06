@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import './components/CardGrid.js';
+import './components/DataFetcher.js'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="grid-container">
+      <div className="grid-item"><img src={} alt="" /></div>
+      <div className="grid-item"></div>
+      <div className="grid-item"></div>
+      <div className="grid-item"></div>
+      <div className="grid-item"></div>
+      <div className="grid-item"></div>
+      <div className="grid-item"></div>
+      <div className="grid-item"></div>
+      <div className="grid-item"></div>
+      <div className="grid-item"></div>
+      <div className="grid-item"></div>
+      <div className="grid-item"></div>
     </div>
   );
 }
